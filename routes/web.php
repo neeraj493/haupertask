@@ -53,7 +53,7 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
                  Route::patch('/{student}/update', 'StudentController@update')->name('student.update');
             Route::delete('student/{id}', 'StudentController@destroy')->name('student.destroy');
         });
-
+  
         
     });
 });
